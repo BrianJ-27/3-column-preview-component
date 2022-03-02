@@ -1,3 +1,4 @@
+/*Global Root Styles*/
 :root {
   /*Card Colors*/
   --bright-orange: hsl(31, 77%, 52%);
@@ -10,7 +11,7 @@
   --font-main-headings: "Big Shoulders Display", cursive;
   --font-main-paragraphs: "Lexend Deca', sans-serif";
 }
-
+/*Base Styles*/
 * {
   box-sizing: border-box;
 }
@@ -53,15 +54,6 @@ div:nth-of-type(3) {
   background-color: var(--very-dark-cyan);
 }
 
-.flex__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.flex__container--card {
-}
-
 h2 {
   color: var(--very-light-gray);
   font-family: var(--font-main-headings);
@@ -95,6 +87,18 @@ button {
   width: 65%;
 }
 
+footer {
+  text-align: center;
+}
+
+/*flexbox styles*/
+.flex__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Button color styles*/
 .btn--sedan {
   color: var(--bright-orange);
 }
@@ -107,8 +111,17 @@ button {
   color: var(--very-dark-cyan);
 }
 
-footer {
-  text-align: center;
+/*Hide h1 but make it accessible for screen readers*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 @media only screen and (min-width: 768px) {
