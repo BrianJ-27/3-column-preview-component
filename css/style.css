@@ -8,7 +8,7 @@
   --transparent-white: hsla(0, 0%, 100%, 0.75); /*Paragraphs*/
   --very-light-gray: hsl(0, 0%, 95%); /*Background, Headings Buttons*/
 
-  --font-main-headings: "Big Shoulders Display", cursive;
+  --font-main-headings: "Big Shoulders Display", sans-serif;
   --font-main-paragraphs: "Lexend Deca', sans-serif";
 }
 /*Base Styles*/
