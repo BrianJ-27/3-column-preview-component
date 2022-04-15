@@ -101,7 +101,7 @@ footer {
 
 /*Button color styles*/
 .btn {
-  display: inline-block;
+  display: block;
   border-radius: 25px;
   background-color: var(--very-light-gray);
   font-size: 0.9rem;
@@ -147,7 +147,7 @@ footer {
   border-width: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   main {
     max-width: 900px;
     max-height: 700px;
