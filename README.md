@@ -6,7 +6,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 - [Frontend Mentor - 3-column preview card component solution](#frontend-mentor---3-column-preview-card-component-solution)
   - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
@@ -15,10 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
   - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### The challenge
 
